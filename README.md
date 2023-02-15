@@ -55,10 +55,10 @@ As often as possible sync your feature branch with the central dev.
 # Naming Convention for Parameter Files and Folders
 
 ~~~bash
-- detectorCalibParams_V$.par ($=version number)
-- detectorMappingParams_V$.par
-- detectorGeoParams_V$.par
-- detectorHitParams_V$.par
+- detectorCalibParams_v$.par ($=version number)
+- detectorMappingParams_v$.par
+- detectorGeoParams_v$.par
+- detectorHitParams_v$.par
 ~~~
 
 # Metafile
@@ -68,5 +68,3 @@ As often as possible sync your feature branch with the central dev.
 (on the same line )  #mwpc0GeoVersion #fMwpc1GeoVersion #mwpc2GeoVersion #mwpc3GeoVersion #trimCalVersion #trimHitVersion #trimGeoVersion #twimCalVersion #twimHitVersion
 (on the same line )  #twimGeoVersion #targetGeoVersion #sciCalVersion #tofCalVersion #tofHitVersion #tofGeoVersion #amsMapVersion #amsCalVersion
 ~~~
-
-
