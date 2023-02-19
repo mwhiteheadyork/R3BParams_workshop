@@ -8,7 +8,7 @@ void param_converter() {
 
     R3BCalifaCrystalCalPar *calPars;
 
-    FairParRootFileIo* inputRoot = new FairParRootFileIo(kFALSE);
+    FairParRootFileIo* inputRoot = new FairParRootFileIo(kTRUE);
 
     FairRuntimeDb* rtdb = FairRuntimeDb::instance();
 
