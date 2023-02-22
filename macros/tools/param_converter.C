@@ -6,13 +6,13 @@ void param_converter() {
 
     UInt_t fDummyRunId=1;
 
-    R3BCalifaCrystalCalPar *calPars;
+    R3BCalifaCrystalCalPar *califaPars;
 
     FairParRootFileIo* inputRoot = new FairParRootFileIo(kTRUE);
 
     FairRuntimeDb* rtdb = FairRuntimeDb::instance();
 
-    calPars = dynamic_cast<R3BCalifaCrystalCalPar*>(rtdb->getContainer("califaCrystalCalPar"));
+    califaPars = dynamic_cast<R3BCalifaCrystalCalPar*>(rtdb->getContainer("califaCrystalCalPar"));
 
 
     inputRoot->open(califaCalFilename,"in");
